@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100;
+    background-image: url(/endless-constellation.svg);
+
+}
+.cabecalho{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.cabecalho-imagem{
+    height: 130px;
+    margin-right: 1100px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+.cabecalho-menu-item{
+    font-family: 'sarala', sans-serif;
+    color:blanchedalmond;
+    font-weight: 400;
+    font-size: 18px;
+}
+.conteudo{
+    border-top: 0.4px solid blanchedalmond;
+    margin-bottom: 48px;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-principal-imagem{
+    margin-top: 30px;
+    margin-right: 150px;
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.conteudo-principal-escrito-titulo{
+    font-family: 'righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: blanchedalmond;
+    
+}
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: blanchedalmond;
+}
+.conteudo-principal-escrito-botao{
+    background-color:rgb(96, 37, 136);
+    width: 180px;
+    height: 60px;
+    box-shadow: 4px 5px 4px rgb(78, 78, 78);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #0f0f0f;
+}
+.conteudo-principal-escrito-botao:hover{
+    background-color:blanchedalmond;
+}
+.conteudo-principal-imagem{
+    height: 430px;
+}
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid blanchedalmond;
+    padding-top: 50px;
+    font-family: 'righteous', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    color:  blanchedalmond;
+    margin-bottom: 16px;
+}
+.conteudo-secundario-paragrafo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: blanchedalmond;
+}
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid blanchedalmond;
+}
+.rodape{
+    color:blanchedalmond;
+}
+.imagens{
+    width: 50px;
+    height: 50px;
+    margin-top: 11px;
+    margin-left: 40px;
+    padding: 1px;
+    box-shadow: 4px 5px 4px black;
+    background-color: rgb(96, 37, 136);
+}
+.imagens:hover{
+    background-color:blanchedalmond;
+}
