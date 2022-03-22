@@ -8,7 +8,7 @@
 }
 body{
     font-size: 100;
-    background-image: url(/endless-constellation.svg);
+    background-image: url(img/endless-constellation.svg);
 
 }
 .cabecalho{
@@ -153,6 +153,11 @@ body{
 }
 .botoes:hover{
     background-color:blanchedalmond;
+}
+.a-botao{
+    color: #0f0f0f;
+    text-decoration: none;
+    
 }
 .textos-introdutorios{
     margin: 50px;
