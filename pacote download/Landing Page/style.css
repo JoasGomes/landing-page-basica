@@ -122,3 +122,62 @@ body{
 .imagens:hover{
     background-color:blanchedalmond;
 }
+.botoes-opcoes{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 80px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(61, 16, 102, 0.562);
+}
+.botoes-opcoes-texto{
+    padding-top: 50px;
+    font-family: 'righteous', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color:  blanchedalmond;
+    margin-bottom: 16px;
+}
+.botoes{
+    background-color:rgb(96, 37, 136);
+    width: 180px;
+    height: 60px;
+    box-shadow: 4px 5px 4px rgb(78, 78, 78);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #0f0f0f;
+}
+.botoes:hover{
+    background-color:blanchedalmond;
+}
+.textos-introdutorios{
+    margin: 50px;
+}
+.textos-introdutorios-sobre{
+    padding-top: 30px;
+    font-family: 'righteous', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color:  blanchedalmond;
+    margin-bottom: 16px;
+}
+.textos-introdutorios-titulo{
+    padding-top: 50px;
+    font-family: 'righteous', cursive;
+    font-weight: 400;
+    font-size: 35px;
+    color:  blanchedalmond;
+    margin-bottom: 16px;
+    border-bottom: 0.4px solid blanchedalmond;
+}
+.textos-introdutorios-paragrafo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    color: blanchedalmond;
+    background-color: rgba(137, 43, 226, 0.308);
+}
